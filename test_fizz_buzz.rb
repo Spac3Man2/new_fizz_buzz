@@ -8,9 +8,9 @@ class Test_fizz_buzz < Minitest::Test
 		assert_equal(1, fizz_buzz_kata(1))
 	end
 
-	# def test_2_returns_2
-	# 	assert_equal(2, fizz_buzz_kata(2))
- #    end
+	def test_2_returns_2
+		assert_equal(2, fizz_buzz_kata(2))
+    end
 
 end    
 
