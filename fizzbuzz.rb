@@ -1,12 +1,17 @@
 def fizz_buzz_kata(num)
 
- if num == 3
+ if num == 5
+ 	"minds"
+    
+ elsif 
+    num == 3
  	"mined"
 
- else num
+ else
+    num
 
  end
-  	
+
 end	
 
 
