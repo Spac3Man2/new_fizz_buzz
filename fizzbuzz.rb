@@ -1,5 +1,12 @@
 def fizz_buzz_kata(num)
-   num
+
+ if num == 3
+ 	"mined"
+
+ else num
+
+ end
+  	
 end	
 
 

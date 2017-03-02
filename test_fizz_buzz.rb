@@ -12,15 +12,13 @@ class Test_fizz_buzz < Minitest::Test
 	def test_2_returns_2
 		num = 2
 		assert_equal(2, fizz_buzz_kata(2))
-    end
+    end  
 
-# end    
-
-#     def test_3_returns_mined 
-#         num = 3
-#        	assert_equal(3, fizz_buzz_kata("mined"))
+    def test_3_returns_mined 
+        num = 3
+       	assert_equal("mined", fizz_buzz_kata(3))
     end	
-# end
+end
 
 
 
