@@ -19,14 +19,19 @@ class Test_fizz_buzz < Minitest::Test
        	assert_equal("mined", fizz_buzz_kata(3))
     end	
 
-    def test_5_returns_minds
+    def test_4_returns_minds
     	num = 5
     	assert_equal("minds",fizz_buzz_kata(5))
     end
 
-    def test_6_returns_mined
+    def test_5_returns_mined
     	num = 6
     	assert_equal("mined",fizz_buzz_kata(6))
+    end
+
+    def test_6_returns_minds
+    	num = 10
+    	assert_equal("minds",fizz_buzz_kata(10))
     end
 
 end    

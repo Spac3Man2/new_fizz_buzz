@@ -1,6 +1,6 @@
 def fizz_buzz_kata(num)
 
- if num == 5
+ if num % 5 == 0
  	"minds"
     
  elsif 
