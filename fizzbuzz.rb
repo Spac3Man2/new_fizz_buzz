@@ -4,10 +4,11 @@ def fizz_buzz_kata(num)
  	"minds"
     
  elsif 
-    num == 3
+    num % 3 == 0
  	"mined"
 
  else
+   
     num
 
  end
