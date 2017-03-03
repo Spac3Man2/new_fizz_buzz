@@ -32,10 +32,13 @@ class Test_fizz_buzz < Minitest::Test
     	assert_equal("mined_minds",fizz_buzz_kata(15))
     end
 
-    def test_returns_array_of_100_numbers
+    def test_8_returns_array_of_100_numbers
         assert_equal("minds", fizz_buzz_kata(100))
 	end  
 
+	def test_9_returns_mined_minds
+		assert_equal("mined_minds", fizz_buzz_kata(30))
+	end	
 end    
 
 
