@@ -5,39 +5,36 @@ class Test_fizz_buzz < Minitest::Test
 
 
 	def test_1_returns_1
-		num = 1
-		assert_equal(1, fizz_buzz_kata(1))
+		assert_equal("", fizz_buzz_kata(1))
 	end
 
 	def test_2_returns_2
-		num = 2
-		assert_equal(2, fizz_buzz_kata(2))
+		assert_equal("", fizz_buzz_kata(2))
     end  
 
     def test_3_returns_mined 
-        num = 3
-       	assert_equal("mined", fizz_buzz_kata(3))
+        assert_equal("mined", fizz_buzz_kata(3))
     end	
 
     def test_4_returns_minds
-    	num = 5
     	assert_equal("minds",fizz_buzz_kata(5))
     end
 
     def test_5_returns_mined
-    	num = 6
     	assert_equal("mined",fizz_buzz_kata(6))
     end
 
     def test_6_returns_minds
-    	num = 10
     	assert_equal("minds",fizz_buzz_kata(10))
     end
 
     def test_7_returns_mined_minds
-    	num = 15
     	assert_equal("mined_minds",fizz_buzz_kata(15))
     end
+
+    def test_returns_array_of_100_numbers
+        assert_equal("minds", fizz_buzz_kata(100))
+	end  
 
 end    
 

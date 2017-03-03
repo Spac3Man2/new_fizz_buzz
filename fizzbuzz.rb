@@ -1,21 +1,18 @@
 def fizz_buzz_kata(num)
+    results = ""
+    num = num.to_i
 
- if num % 3 == 0 && num % 5 == 0
- 	"mined_minds"
+ if num % 15 == 0
+ 	results = "mined_minds"
 
  elsif num % 5 == 0
- 	"minds"
+ 	results = "minds"
     
- elsif 
-    num % 3 == 0
- 	"mined"
+ elsif 	num % 3 == 0
+ 	results = "mined"
 
- else
-   
-    num
-
- end
-
+    end
+  return results
 end	
 
 
