@@ -47,6 +47,11 @@ class Test_fizz_buzz < Minitest::Test
 	def test_11_returns_minds
 		assert_equal("minds", fizz_buzz_kata(55))
 	end
+
+    def test_12_returns_mined_minds
+		assert_equal("mined_minds", fizz_buzz_kata(45))
+	end
+
 end    
 
 
