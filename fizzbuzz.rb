@@ -13,6 +13,7 @@ def fizz_buzz_kata(num)
 
     end
   return results
+  print
 end	
 
 
